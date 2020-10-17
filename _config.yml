@@ -1,5 +1,6 @@
 theme: jekyll-theme-architect
-baseurl: "https://ina6ra.github.io/zenn-blog"
+baseurl: https://ina6ra.github.io/zenn-blog
+url: https://ina6ra.github.io/zenn-blog
 plugins:
   - jekyll-relative-links
 relative_links:
