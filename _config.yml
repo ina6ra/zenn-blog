@@ -1,4 +1,5 @@
 theme: jekyll-theme-architect
+permalink: /:slug:output_ext
 plugins:
   - jekyll-relative-links
 relative_links:
