@@ -1,5 +1,5 @@
 theme: jekyll-theme-architect
-permalink: /:categories/:year-:month-:day-:title:output_ext
+permalink: /zenn-blog/:categories/:year-:month-:day-:title:output_ext
 plugins:
   - jekyll-relative-links
 relative_links:
