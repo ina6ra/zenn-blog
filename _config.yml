@@ -4,4 +4,4 @@ plugins:
 relative_links:
   enabled: true
 include:
-  - _posts
+  - blogs
