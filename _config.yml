@@ -12,3 +12,4 @@ feed:
   path: atom.xml
   categories:
     - _posts
+    - note
