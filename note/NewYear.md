@@ -1,6 +1,6 @@
 ---
 title:  "NewYear!"
-category:  "_posts"
+category:  "note"
 ---
 
 # Welcome
