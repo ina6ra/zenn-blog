@@ -2,7 +2,7 @@ theme: jekyll-theme-architect
 permalink: /zenn-blog/:categories/:year-:month-:day-:title:output_ext
 include:
   - _posts
-  - blogs
+  - note
 plugins:
   - jekyll-relative-links
   - jekyll-feed
