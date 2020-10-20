@@ -1,8 +1,11 @@
 theme: jekyll-theme-architect
 permalink: /zenn-blog/:categories/:year-:month-:day-:title:output_ext
-include:
-  - _posts
-  - note
+# include:
+#   - _posts
+#   - note
+collections:
+  notes:
+    output：true
 plugins:
   - jekyll-relative-links
   - jekyll-feed
