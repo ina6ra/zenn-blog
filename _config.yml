@@ -3,9 +3,9 @@ permalink: /zenn-blog/:categories/:year-:month-:day-:title:output_ext
 include:
   - _posts
   - note
-collections:
-  notes:
-    output：true
+# collections:
+#   notes:
+#     output：true
 plugins:
   - jekyll-relative-links
   - jekyll-feed
