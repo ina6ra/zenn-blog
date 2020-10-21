@@ -2,8 +2,8 @@ theme: jekyll-theme-architect
 # permalink: /zenn-blog/:categories/:year-:month-:day-:title:output_ext
 permalink: /zenn-blog/notes/:categories/:year-:month-:day-:title:output_ext
 include:
-  - notes/_posts
-  - notes/_blogs
+#   - notes/_posts
+#   - notes/_blogs
   - memo
 collections_dir: notes
 collections:
