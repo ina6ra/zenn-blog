@@ -59,10 +59,10 @@
             {% endfor %}
           </ul>
           
-          <h3>Notes</h3>
+          <h3>Blogs</h3>
           <ul>
-            {% for note in site.notes %}
-            <li><a href="{{ note.url }}">{{ note.name }} - {{ note.position }}</a></li>
+            {% for blog in site.blogs %}
+            <li><a href="{{ blog.url }}">{{ blog.name }} - {{ blog.position }}</a></li>
             {% endfor %}
           </ul>
 
