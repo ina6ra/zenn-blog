@@ -13,7 +13,7 @@ collections:
 #     permalink: /zenn-blog/:categories/:year/:month/:day/:title:output_ext
   blogs:
     output: true
-    permalink: /zenn-blog/blogs/:name:output_ext
+    permalink: /zenn-blog/blogs/:path:output_ext
 plugins:
   - jekyll-relative-links
   - jekyll-feed
