@@ -8,12 +8,12 @@ include:
   - memo
 collections_dir: notes
 collections:
-#   posts:
-#     output: true
-#     permalink: /zenn-blog/:categories/:year/:month/:day/:title:output_ext
+  posts:
+    output: true
+    permalink: /zenn-blog/:categories/:year/:month/:day/:title:output_ext
   blogs:
     output: true
-    permalink: /zenn-blog/notes/_blogs/:name:output_ext
+#     permalink: /zenn-blog/notes/_blogs/:name:output_ext
 plugins:
   - jekyll-relative-links
   - jekyll-feed
