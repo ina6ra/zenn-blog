@@ -2,12 +2,13 @@ theme: jekyll-theme-architect
 permalink: /zenn-blog/:categories/:year-:month-:day-:title:output_ext
 include:
   - _posts
+  - _notes
   - blog
 collections:
   notes:
     output: true
-#     permalink: /zenn-blog/:collection/:name
-    permalink: /zenn-blog/:collection/:path
+    permalink: /zenn-blog/:collection/:name
+#     permalink: /zenn-blog/:collection/:path
 plugins:
   - jekyll-relative-links
   - jekyll-feed
