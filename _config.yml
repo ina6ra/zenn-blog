@@ -1,5 +1,6 @@
 theme: jekyll-theme-architect
 # url: https://ina6ra.github.io/zenn-blog
+baseurl: /zenn-blog
 # permalink: /zenn-blog/:categories/:year-:month-:day-:title:output_ext
 # permalink: /zenn-blog/:categories/:year/:month/:day/:title:output_ext
 include:
