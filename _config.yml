@@ -1,14 +1,14 @@
 theme: jekyll-theme-architect
 permalink: /zenn-blog/:categories/:year-:month-:day-:title:output_ext
 include:
-  - _posts
-  - _notes
+  - notes/_posts
+  - notes/_blogs
   - memo
-# collections_dir: notes
+collections_dir: notes
 collections:
-  notes:
+  blogs:
     output: true
-    permalink: /zenn-blog/_notes/:name:output_ext
+    permalink: /zenn-blog/_blogs/:name:output_ext
 plugins:
   - jekyll-relative-links
   - jekyll-feed
