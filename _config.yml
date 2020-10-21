@@ -3,7 +3,8 @@ permalink: /zenn-blog/:categories/:year-:month-:day-:title:output_ext
 include:
   - _posts
   - _notes
-  - blog
+  - memo
+# collections_dir: notes
 collections:
   notes:
     output: true
@@ -17,4 +18,4 @@ feed:
   path: atom.xml
   categories:
     - _posts
-    - blog
+    - memo
