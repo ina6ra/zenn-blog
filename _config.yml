@@ -6,7 +6,8 @@ include:
 collections:
   notes:
     output: true
-    permalink: /zenn-blog/:collection/:name
+#     permalink: /zenn-blog/:collection/:name
+    permalink: /zenn-blog/:collection/:path
 plugins:
   - jekyll-relative-links
   - jekyll-feed
