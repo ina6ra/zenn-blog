@@ -1,12 +1,16 @@
 theme: jekyll-theme-architect
+baseurl: https://ina6ra.github.io/zenn-blog
 # permalink: /zenn-blog/:categories/:year-:month-:day-:title:output_ext
-permalink: /zenn-blog/:categories/:year/:month/:day/:title:output_ext
+# permalink: /zenn-blog/:categories/:year/:month/:day/:title:output_ext
 include:
-  - notes/_posts
+#   - notes/_posts
 #   - notes/_blogs
   - memo
 collections_dir: notes
 collections:
+#   posts:
+#     output: true
+#     permalink: /zenn-blog/:categories/:year/:month/:day/:title:output_ext
   blogs:
     output: true
     permalink: /zenn-blog/notes/_blogs/:name:output_ext
