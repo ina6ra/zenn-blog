@@ -5,7 +5,7 @@ baseurl: /zenn-blog
 # permalink: /zenn-blog/:categories/:year/:month/:day/:title:output_ext
 include:
 #   - notes/_posts
-  - notes/_blogs
+#   - notes/_blogs
   - memo
 collections_dir: notes
 future: true
@@ -15,7 +15,7 @@ collections:
 #     permalink: /zenn-blog/:categories/:year/:month/:day/:title:output_ext
   blogs:
     output: true
-    future: true
+#     future: true
 #     permalink: /zenn-blog/blogs/:path:output_ext
 plugins:
   - jekyll-relative-links
