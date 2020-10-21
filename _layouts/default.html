@@ -62,7 +62,7 @@
           <h3>Blogs</h3>
           <ul>
             {% for blog in site.blogs %}
-            <li><a href="{{ blog.url }}">{{ blog.name }} - {{ blog.position }}</a></li>
+            <li><a href="{{ site.baseurl }}{{ blog.url }}">{{ blog.name }} - {{ blog.position }}</a></li>
             {% endfor %}
           </ul>
 
