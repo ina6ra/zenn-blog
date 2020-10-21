@@ -1,5 +1,6 @@
 theme: jekyll-theme-architect
-permalink: /zenn-blog/:categories/:year-:month-:day-:title:output_ext
+# permalink: /zenn-blog/:categories/:year-:month-:day-:title:output_ext
+permalink: /zenn-blog/notes/:categories/:year-:month-:day-:title:output_ext
 include:
   - notes/_posts
   - notes/_blogs
@@ -8,7 +9,7 @@ collections_dir: notes
 collections:
   blogs:
     output: true
-    permalink: /zenn-blog/_blogs/:name:output_ext
+    permalink: /zenn-blog/notes/_blogs/:name:output_ext
 plugins:
   - jekyll-relative-links
   - jekyll-feed
