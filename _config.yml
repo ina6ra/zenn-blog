@@ -21,10 +21,10 @@ collections:
 defaults:
   -
     scope:
-      path: ""
-      type: "blogs"
+#       path: ""
+      type: blogs
     values:
-      layout: "default"
+      layout: default
 plugins:
   - jekyll-relative-links
   - jekyll-feed
