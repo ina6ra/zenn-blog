@@ -66,15 +66,6 @@
             {% endfor %}
           </ul>
 
-          <h3>Memo</h3>
-          <ul>
-            {% for page in site.pages %}
-            {% if page.url contains 'memo' %}
-            <li><a href="{{ site.baseurl }}{{ page.url }}">{{ page.name }}</a></li>
-            {% endif %}
-            {% endfor %}
-          </ul>
-
           <h3>Articles</h3>
           <ul>
             {% for page in site.pages %}
