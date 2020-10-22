@@ -7,6 +7,7 @@ include:
 #   - notes/_posts
 #   - notes/_blogs
   - memo
+  - articles
 collections_dir: notes
 future: true
 collections:
