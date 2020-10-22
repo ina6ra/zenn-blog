@@ -1,10 +1,8 @@
 ---
 title: "Markdown アプリまとめ"
-slug: "afd8e95a82288fb258b0"
 emoji: "👌"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: []
-published: false
 ---
 
 # まとめ
