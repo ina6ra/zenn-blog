@@ -32,6 +32,6 @@ relative_links:
   enabled: true
 feed:
   path: atom.xml
-  categories:
-    - _posts
-    - memo
+#   categories:
+#     - _posts
+#     - memo
