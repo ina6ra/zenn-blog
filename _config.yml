@@ -9,7 +9,7 @@ include:
   - memo
   - articles
 collections_dir: notes
-future: true
+# future: true
 collections:
 #   posts:
 #     output: true
@@ -18,6 +18,13 @@ collections:
     output: true
 #     future: true
 #     permalink: /zenn-blog/blogs/:path:output_ext
+defaults:
+  -
+    scope:
+      path: ""
+      type: "blogs"
+    values:
+      layout: "default"
 plugins:
   - jekyll-relative-links
   - jekyll-feed
