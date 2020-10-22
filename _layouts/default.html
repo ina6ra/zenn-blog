@@ -62,14 +62,14 @@
           <h3>Blogs</h3>
           <ul>
             {% for blog in site.blogs %}
-            <li><a href="{{ site.baseurl }}{{ blog.url }}">{{ blog.slug }} - {{ blog.position }}</a></li>
+            <li><a href="{{ site.baseurl }}{{ blog.url }}">{{ blog.name }} - {{ blog.position }}</a></li>
             {% endfor %}
           </ul>
 
           <h3>Pages</h3>
           <ul>
             {% for page in site.pages %}
-            <li><a href="{{ site.baseurl }}{{ page.url }}">{{ page.name }}@link</a></li>
+            <li><a href="{{ site.baseurl }}{{ page.url }}">{{ page.slug }}@link</a></li>
             {% endfor %}
           </ul>
 
