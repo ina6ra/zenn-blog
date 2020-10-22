@@ -69,7 +69,7 @@
           <h3>Memo</h3>
           <ul>
             {% for page in site.pages %}
-            {% if page.name contains 'memo' %}
+            {% if page.url contains 'memo' %}
             <li><a href="{{ site.baseurl }}{{ page.url }}">{{ page.name }}</a></li>
             {% endif %}
             {% endfor %}
@@ -78,7 +78,7 @@
           <h3>Articles</h3>
           <ul>
             {% for page in site.pages %}
-            {% if page.name contains 'articles' %}
+            {% if page.url contains 'articles' %}
             <li><a href="{{ site.baseurl }}{{ page.url }}">{{ page.name }}</a></li>
             {% endif %}
             {% endfor %}
