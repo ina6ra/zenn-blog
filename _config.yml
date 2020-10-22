@@ -6,7 +6,7 @@ baseurl: /zenn-blog
 include:
 #   - notes/_posts
 #   - notes/_blogs
-  - memo
+#   - memo
   - articles
 collections_dir: notes
 # future: true
