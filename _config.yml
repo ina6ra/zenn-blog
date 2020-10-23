@@ -1,20 +1,19 @@
 theme: jekyll-theme-architect
 baseurl: /zenn-blog
-# permalink: /:slug:output_ext
 # include:
 #   - articles
 collections_dir: notes
 collections:
   posts:
     output: true
-#     future: true
+    # future: true
     permalink: /:slug:output_ext
   blogs:
     output: true
 defaults:
   -
     scope:
-#       path: ""
+      # path: ""
       type: blogs
     values:
       layout: default
