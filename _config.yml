@@ -9,13 +9,13 @@ collections:
     output: true
     # future: true
     permalink: /:slug:output_ext
-  blogs:
+  archives:
     output: true
 defaults:
   -
     scope:
       # path: ""
-      type: blogs
+      type: archives
     values:
       layout: default
 plugins:
