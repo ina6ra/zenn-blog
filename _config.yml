@@ -3,6 +3,7 @@ theme: jekyll-theme-architect
 baseurl: /zenn-blog
 # permalink: /zenn-blog/:categories/:year-:month-:day-:title:output_ext
 # permalink: /zenn-blog/:categories/:year/:month/:day/:title:output_ext
+permalink: /:slug:output_ext
 include:
 #   - notes/_blogs
 #   - articles
