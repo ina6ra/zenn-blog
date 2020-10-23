@@ -1,6 +1,7 @@
 theme: jekyll-theme-architect
 baseurl: /zenn-blog
 permalink: /:slug:output_ext
+future: true
 # include:
 #   - articles
 collections_dir: notes
