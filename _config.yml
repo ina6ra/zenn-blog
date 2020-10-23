@@ -1,5 +1,6 @@
-theme: jekyll-theme-architect
+title: イネの村
 baseurl: /zenn-blog
+theme: jekyll-theme-architect
 # include:
 #   - articles
 collections_dir: notes
