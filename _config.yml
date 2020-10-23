@@ -1,0 +1,27 @@
+title: イネの村
+baseurl: /zenn-blog
+theme: jekyll-theme-architect
+# include:
+#   - articles
+collections_dir: notes
+collections:
+  posts:
+    output: true
+    # future: true
+    permalink: /:slug:output_ext
+  blogs:
+    output: true
+defaults:
+  -
+    scope:
+      # path: ""
+      type: blogs
+    values:
+      layout: default
+plugins:
+  - jekyll-relative-links
+  - jekyll-feed
+relative_links:
+  enabled: true
+feed:
+  path: atom.xml
