@@ -3,10 +3,10 @@ baseurl: /zenn-blog
 # include:
 #   - articles
 collections_dir: notes
-# future: true
 collections:
   posts:
     output: true
+    future: true
     permalink: /:slug:output_ext
   blogs:
     output: true
