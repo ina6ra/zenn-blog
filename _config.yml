@@ -25,4 +25,9 @@ plugins:
 relative_links:
   enabled: true
 feed:
-  path: atom.xml
+  # path: atom.xml
+  collections:
+    posts:
+      path: atom.xml
+    archives:
+      path: archives.xml
