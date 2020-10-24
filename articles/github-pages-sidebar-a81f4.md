@@ -3,7 +3,7 @@ title: "Github Pagesの公式テーマでサイドバーありの一覧"
 emoji: "💬"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["github"]
-published: false
+published: true
 ---
 
 ## 最初に
