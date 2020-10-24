@@ -70,7 +70,7 @@
           <ul>
             {% for page in site.pages %}
             {% if page.url contains 'articles' %}
-            <li><a href="{{ site.baseurl }}{{ page.url }}">{{ page.name }}</a></li>
+            <li><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></li>
             {% endif %}
             {% endfor %}
           </ul>
