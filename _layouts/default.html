@@ -33,6 +33,9 @@
     <div id="content-wrapper">
       <div class="inner clearfix">
         <section id="main-content">
+          {% if page.title %}
+          <h2>{{ page.title }}</h2>
+          {% endif %}
           {{ content }}
         </section>
 
