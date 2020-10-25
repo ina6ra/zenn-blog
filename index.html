@@ -8,6 +8,6 @@ title: Home
 {% for p in site.pages %}
 {% if p.url contains 'articles' %}
 <h3><a href="{{ site.baseurl }}{{ p.url }}">{{ p.title }}</a></h3>
-<p>{{ p.excerpt }}</p>
+<p>{{ p.content | strip_html | truncatewords: 30 }}</p>
 {% endif %}
 {% endfor %}
