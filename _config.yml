@@ -17,8 +17,8 @@ defaults:
     scope:
       # path: ""
       type: archives
-    values:
-      layout: default
+    # values:
+    #   layout: default
 plugins:
   - jekyll-relative-links
   - jekyll-feed
