@@ -34,8 +34,9 @@
     <div id="content-wrapper">
       <div class="inner clearfix">
         <section id="main-content">
-          {% if page.title %}
           <h2>{{ page.title }}</h2>
+          {% if page.url contains 'articles' %}
+          <blockquote>本記事は <a href="https://zenn.dev/ina6ra{{page.url}}">Zenn</a> でも公開中です。</blockquote>
           {% endif %}
           {{ content }}
         </section>
@@ -58,23 +59,23 @@
           
           <h3>Posts</h3>
           <ul>
-            {% for post in site.posts %}
-            <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+            {% for p in site.posts %}
+            <li><a href="{{ site.baseurl }}{{ p.url }}">{{ p.title }}</a></li>
             {% endfor %}
           </ul>
           
           <h3>Blogs</h3>
           <ul>
-            {% for blog in site.archives %}
-            <li><a href="{{ site.baseurl }}{{ blog.url }}">{{ blog.slug }}</a></li>
+            {% for b in site.archives %}
+            <li><a href="{{ site.baseurl }}{{ b.url }}">{{ b.slug }}</a></li>
             {% endfor %}
           </ul>
 
           <h3>Zenn</h3>
           <ul>
-            {% for page in site.pages %}
-            {% if page.url contains 'articles' %}
-            <li><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></li>
+            {% for p in site.pages %}
+            {% if p.url contains 'articles' %}
+            <li><a href="{{ site.baseurl }}{{ p.url }}">{{ p.title }}</a></li>
             {% endif %}
             {% endfor %}
           </ul>
