@@ -5,9 +5,13 @@ title: Home
 
 <h2>{{ page.title }}</h2>
 
-{% for p in site.pages %}
-{% if p.url contains 'articles' %}
+{% for p in site.posts %}
 <h3><a href="{{ site.baseurl }}{{ p.url }}">{{ p.title }}</a></h3>
-<p>{{ p.content | strip_html | truncatewords: 10 }}</p>
-{% endif %}
+<p>{{ p.excerpt }}</p>
 {% endfor %}
+
+{% comment %}
+{% if p.url contains 'articles' %}
+<!-- <p>{{ p.content | strip_html | truncatewords: 10 }}</p> -->
+{% endif %}
+{% endcomment %}
