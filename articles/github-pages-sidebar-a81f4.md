@@ -11,6 +11,8 @@ published: true
 自分用メモです。  
 追加設定でサイドバーの位置を変更できるかまでは確認してません。
 
+<!--more-->
+
 ## 公式テーマリスト
 
 - [Supported themes \| GitHub Pages](https://pages.github.com/themes/)
