@@ -59,7 +59,18 @@
             <li><a href="{{ site.baseurl }}{{ p.url }}">{{ p.title }}</a></li>
             {% endfor %}
           </ul>
-          
+
+          <h3>_posts Tags</h3>
+          <ul>
+            {% for tag in site.tags %}
+            {% if tag[0] contains '_posts' %}
+              {% for p in tag[1] %}
+              <li><a href="{{ site.baseurl }}{{ p.url }}">{{ p.title }}</a></li>
+              {% endfor %}
+            {% endif %}
+            {% endfor %}
+          </ul>
+
           <h3>Blogs</h3>
           <ul>
             {% for b in site.archives %}
