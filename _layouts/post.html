@@ -3,8 +3,6 @@ layout: default
 ---
 
 <h2>{{ page.title }}</h2>
-<span>{{ page.created | date: "%Y-%m-%d" }}</span>
-<!-- <span>{{ page.date }}</span> -->
-<!-- <p>{{ page.thumb }}</p> -->
+<span>作成日: {{ page.created | date: "%Y-%m-%d" }} | 更新日: {{ page.modified | date: "%Y-%m-%d" }}</span>
 
 {{ content }}
