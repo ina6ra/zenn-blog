@@ -3,6 +3,7 @@ baseurl: /blog
 theme: jekyll-theme-architect
 # include:
 #   - articles
+excerpt_separator: <!--more-->
 collections_dir: notes
 collections:
   posts:
