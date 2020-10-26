@@ -3,7 +3,7 @@ layout: default
 ---
 
 <h2>{{ page.title }}</h2>
-<span>{{ page.created | date_to_xmlschema }}</span>
+<span>{{ page.created | date: "%Y-%m-%d" }}</span>
 <!-- <span>{{ page.date }}</span> -->
 <!-- <p>{{ page.thumb }}</p> -->
 
