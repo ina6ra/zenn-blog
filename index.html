@@ -7,8 +7,7 @@ title: Home
 
 {% for tag in site.tags %}
 {% if tag[0] == '_posts' %}
-  {% assign items = tag[1] | sort: 'created' %}
-  {% for p in tag[1] | sort: 'created' %}
+  {% for p in tag[1] %}
   <h3><a href="{{ site.baseurl }}{{ p.url }}">{{ p.title }}</a></h3>
   <p>{{ p.excerpt | strip_html }}</p>
   {% endfor %}
