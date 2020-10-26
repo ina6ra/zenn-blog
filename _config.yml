@@ -24,7 +24,7 @@ defaults:
       # path: ""
       type: archives
     values:
-      layout: default
+      layout: post
 plugins:
   - jekyll-relative-links
   - jekyll-feed
