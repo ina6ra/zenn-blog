@@ -5,12 +5,21 @@ title: Home
 
 <h2>{{ page.title }}</h2>
 
+{% for tag in site.tags %}
+{% if tag[0] == '_posts' %}
+  {% for p in tag[1] %}
+  <h3><a href="{{ site.baseurl }}{{ p.url }}">{{ p.title }}</a></h3>
+  <p>{{ p.excerpt | strip_html }}</p>
+  {% endfor %}
+{% endif %}
+{% endfor %}
+
+{% comment %}
 {% for p in site.posts %}
 <h3><a href="{{ site.baseurl }}{{ p.url }}">{{ p.title }}</a></h3>
 <p>{{ p.excerpt | strip_html }}</p>
 {% endfor %}
 
-{% comment %}
 {% for p in site.pages %}
 {% if p.url contains 'articles' %}
 <h3><a href="{{ site.baseurl }}{{ p.url }}">{{ p.title }}</a></h3>
