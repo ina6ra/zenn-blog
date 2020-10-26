@@ -3,6 +3,7 @@ baseurl: /blog
 theme: jekyll-theme-architect
 # include:
 #   - articles
+excerpt_separator: "<!--more-->"
 collections_dir: notes
 collections:
   posts:
@@ -18,7 +19,7 @@ defaults:
       type: pages
     values:
       layout: page
-      excerpt_separator: <!--more-->
+      excerpt_separator: "<!--more-->"
   - scope:
       # path: ""
       type: archives
