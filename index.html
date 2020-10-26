@@ -5,17 +5,16 @@ title: Home
 
 <h2>{{ page.title }}</h2>
 
-{% comment %}
 {% for p in site.posts %}
 <h3><a href="{{ site.baseurl }}{{ p.url }}">{{ p.title }}</a></h3>
 <p>{{ p.excerpt }}</p>
 {% endfor %}
-{% endcomment %}
 
+{% comment %}
 {% for p in site.pages %}
 {% if p.url contains 'articles' %}
 <h3><a href="{{ site.baseurl }}{{ p.url }}">{{ p.title }}</a></h3>
-<!-- <p>{{ p.content | strip_html | truncatewords: 10 }}</p> -->
-<p>{{ p.excerpt }}</p>
+<p>{{ p.content | strip_html | truncatewords: 10 }}</p>
 {% endif %}
 {% endfor %}
+{% endcomment %}
