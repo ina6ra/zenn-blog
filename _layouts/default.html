@@ -62,8 +62,9 @@
 
           <h3>Blogs</h3>
           <ul>
-            {% for b in site.archives %}
-            <li><a href="{{ site.baseurl }}{{ b.url }}">{{ b.slug }}</a></li>
+            {% assign items = site.archives | sort: 'created' | reverse %}
+            {% for b in items %}
+            <li><a href="{{ site.baseurl }}{{ b.url }}">{{ b.title }}</a></li>
             {% endfor %}
           </ul>
 
