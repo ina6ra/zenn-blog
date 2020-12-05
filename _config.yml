@@ -28,6 +28,9 @@ defaults:
 plugins:
   - jekyll-relative-links
   - jekyll-feed
+  - jekyll/tagging
+tag_page_layout: tag_page
+tag_page_dir: tag
 relative_links:
   enabled: true
 feed:
