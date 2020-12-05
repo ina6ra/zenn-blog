@@ -1,3 +1,8 @@
+---
+layout: default
+title: Tags
+---
+
 {% for tag in site.tags %}
 <article>
   <h1 id="tag_{{ tag[0] }}">{{ tag[0] }}</h1>
